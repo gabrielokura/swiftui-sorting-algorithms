@@ -11,6 +11,15 @@
 		7C5A97C52A7862CE00B0392B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A97C42A7862CE00B0392B /* ContentView.swift */; };
 		7C5A97C72A7862CF00B0392B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A97C62A7862CF00B0392B /* Assets.xcassets */; };
 		7C5A97CA2A7862CF00B0392B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A97C92A7862CF00B0392B /* Preview Assets.xcassets */; };
+		7C703ECB2A792E500042A6D8 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C703ECA2A792E500042A6D8 /* Controller.swift */; };
+		7CAB497A2A7948A800055C32 /* Sorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49792A7948A800055C32 /* Sorter.swift */; };
+		7CAB497D2A7A916900055C32 /* BubbleSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB497C2A7A916900055C32 /* BubbleSorter.swift */; };
+		7CAB497F2A7A93F100055C32 /* SelectionSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB497E2A7A93F100055C32 /* SelectionSorter.swift */; };
+		7CAB49812A7A9B4C00055C32 /* InsertionSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49802A7A9B4C00055C32 /* InsertionSorter.swift */; };
+		7CAB49832A7AD36600055C32 /* MergeSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49822A7AD36600055C32 /* MergeSorter.swift */; };
+		7CAB49852A7AD46900055C32 /* QuickSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49842A7AD46900055C32 /* QuickSorter.swift */; };
+		7CAB49872A7AD4C700055C32 /* RandomQuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49862A7AD4C700055C32 /* RandomQuickSort.swift */; };
+		7CAB498B2A7AD65500055C32 /* QuickSorter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB498A2A7AD65500055C32 /* QuickSorter3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		7C5A97C42A7862CE00B0392B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C5A97C62A7862CF00B0392B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5A97C92A7862CF00B0392B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C703ECA2A792E500042A6D8 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		7CAB49792A7948A800055C32 /* Sorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorter.swift; sourceTree = "<group>"; };
+		7CAB497C2A7A916900055C32 /* BubbleSorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSorter.swift; sourceTree = "<group>"; };
+		7CAB497E2A7A93F100055C32 /* SelectionSorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSorter.swift; sourceTree = "<group>"; };
+		7CAB49802A7A9B4C00055C32 /* InsertionSorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSorter.swift; sourceTree = "<group>"; };
+		7CAB49822A7AD36600055C32 /* MergeSorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSorter.swift; sourceTree = "<group>"; };
+		7CAB49842A7AD46900055C32 /* QuickSorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSorter.swift; sourceTree = "<group>"; };
+		7CAB49862A7AD4C700055C32 /* RandomQuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuickSort.swift; sourceTree = "<group>"; };
+		7CAB498A2A7AD65500055C32 /* QuickSorter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSorter3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,13 @@
 		7C5A97C12A7862CE00B0392B /* QuizGame */ = {
 			isa = PBXGroup;
 			children = (
+				7CAB497B2A7A915800055C32 /* Sorters */,
 				7C5A97C22A7862CE00B0392B /* QuizGameApp.swift */,
 				7C5A97C42A7862CE00B0392B /* ContentView.swift */,
 				7C5A97C62A7862CF00B0392B /* Assets.xcassets */,
 				7C5A97C82A7862CF00B0392B /* Preview Content */,
+				7C703ECA2A792E500042A6D8 /* Controller.swift */,
+				7CAB49792A7948A800055C32 /* Sorter.swift */,
 			);
 			path = QuizGame;
 			sourceTree = "<group>";
@@ -65,6 +86,20 @@
 				7C5A97C92A7862CF00B0392B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CAB497B2A7A915800055C32 /* Sorters */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB497C2A7A916900055C32 /* BubbleSorter.swift */,
+				7CAB497E2A7A93F100055C32 /* SelectionSorter.swift */,
+				7CAB49802A7A9B4C00055C32 /* InsertionSorter.swift */,
+				7CAB49822A7AD36600055C32 /* MergeSorter.swift */,
+				7CAB49842A7AD46900055C32 /* QuickSorter.swift */,
+				7CAB49862A7AD4C700055C32 /* RandomQuickSort.swift */,
+				7CAB498A2A7AD65500055C32 /* QuickSorter3.swift */,
+			);
+			path = Sorters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAB497D2A7A916900055C32 /* BubbleSorter.swift in Sources */,
+				7C703ECB2A792E500042A6D8 /* Controller.swift in Sources */,
+				7CAB49872A7AD4C700055C32 /* RandomQuickSort.swift in Sources */,
+				7CAB498B2A7AD65500055C32 /* QuickSorter3.swift in Sources */,
 				7C5A97C52A7862CE00B0392B /* ContentView.swift in Sources */,
+				7CAB49832A7AD36600055C32 /* MergeSorter.swift in Sources */,
+				7CAB497A2A7948A800055C32 /* Sorter.swift in Sources */,
+				7CAB49852A7AD46900055C32 /* QuickSorter.swift in Sources */,
 				7C5A97C32A7862CE00B0392B /* QuizGameApp.swift in Sources */,
+				7CAB49812A7A9B4C00055C32 /* InsertionSorter.swift in Sources */,
+				7CAB497F2A7A93F100055C32 /* SelectionSorter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
