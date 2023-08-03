@@ -8,38 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var controller = Controller()
-    
     var body: some View {
-        VStack {
-            
-            Text("Swap: \(controller.swapCounter)")
-            
-            HStack {
-                ForEach(controller.rectangles) { current in
-                    Rectangle()
-                        .fill(current.color)
-                        .frame(width: current.width, height: current.heigth)
-                        .frame(height: 300, alignment: .bottom)
-                }
-            }
-            .animation(.spring(), value: controller.rectangles)
-            
-            HStack {
-                Button("Sort") {
-                    controller.sort()
-                }
-                .padding()
-                
-                Button("Mix") {
-                    controller.mix()
-                }
-                .padding()
-            }
-            .padding(.top, 50)
-            
-        }
-        .padding()
+        MenuView()
     }
 }
 
