@@ -24,6 +24,9 @@
 		7CAB49932A7BE60F00055C32 /* SortingExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49922A7BE60F00055C32 /* SortingExampleViewModel.swift */; };
 		7CAB49952A7BE77B00055C32 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49942A7BE77B00055C32 /* MenuView.swift */; };
 		7CAB49972A7BE7B700055C32 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB49962A7BE7B700055C32 /* MenuViewModel.swift */; };
+		7CE669922A7D261700A82EED /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE669912A7D261700A82EED /* QuizView.swift */; };
+		7CE669942A7D267600A82EED /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE669932A7D267600A82EED /* QuizViewModel.swift */; };
+		7CE669962A7D353100A82EED /* AnswersCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE669952A7D353100A82EED /* AnswersCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		7CAB49922A7BE60F00055C32 /* SortingExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingExampleViewModel.swift; sourceTree = "<group>"; };
 		7CAB49942A7BE77B00055C32 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		7CAB49962A7BE7B700055C32 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		7CE669912A7D261700A82EED /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		7CE669932A7D267600A82EED /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		7CE669952A7D353100A82EED /* AnswersCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 			children = (
 				7CAB498F2A7BE57400055C32 /* SortingExampleView.swift */,
 				7CAB49942A7BE77B00055C32 /* MenuView.swift */,
+				7CE669912A7D261700A82EED /* QuizView.swift */,
+				7CE669952A7D353100A82EED /* AnswersCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 			children = (
 				7CAB49922A7BE60F00055C32 /* SortingExampleViewModel.swift */,
 				7CAB49962A7BE7B700055C32 /* MenuViewModel.swift */,
+				7CE669932A7D267600A82EED /* QuizViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -213,7 +222,10 @@
 				7C5A97C32A7862CE00B0392B /* QuizGameApp.swift in Sources */,
 				7CAB498D2A7BCE2D00055C32 /* GeometryComponent.swift in Sources */,
 				7CAB49902A7BE57400055C32 /* SortingExampleView.swift in Sources */,
+				7CE669922A7D261700A82EED /* QuizView.swift in Sources */,
+				7CE669942A7D267600A82EED /* QuizViewModel.swift in Sources */,
 				7CAB49812A7A9B4C00055C32 /* InsertionSorter.swift in Sources */,
+				7CE669962A7D353100A82EED /* AnswersCardView.swift in Sources */,
 				7CAB497F2A7A93F100055C32 /* SelectionSorter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,8 +361,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,8 +391,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

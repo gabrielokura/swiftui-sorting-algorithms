@@ -18,12 +18,17 @@ class GeometryComponent: Identifiable, Equatable {
     
     init(color: Color?, width: CGFloat?, heigth: CGFloat) {
         self.color = color ?? .black
-        self.width = width ?? 15
+        self.width = width ?? 20
         self.heigth = heigth
     }
     
     static func withDefaultValues(_ heigh: CGFloat) -> GeometryComponent{
         let component = GeometryComponent(color: nil, width: nil, heigth: heigh)
+        return component
+    }
+    
+    static func withHeigthColor(heigh: CGFloat, color: Color) -> GeometryComponent{
+        let component = GeometryComponent(color: color, width: nil, heigth: heigh)
         return component
     }
 }
