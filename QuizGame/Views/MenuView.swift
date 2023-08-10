@@ -41,6 +41,7 @@ struct MenuView: View {
             .background {
                 backgroundColor
             }
+            .preferredColorScheme(.light)
         }
     }
     

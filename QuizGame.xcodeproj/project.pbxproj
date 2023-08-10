@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3B90E02A847D7A00BD4C8C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B90DF2A847D7A00BD4C8C /* README.md */; };
 		7C5A97C32A7862CE00B0392B /* QuizGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A97C22A7862CE00B0392B /* QuizGameApp.swift */; };
 		7C5A97C52A7862CE00B0392B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A97C42A7862CE00B0392B /* ContentView.swift */; };
 		7C5A97C72A7862CF00B0392B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A97C62A7862CF00B0392B /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C3B90DF2A847D7A00BD4C8C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7C5A97BF2A7862CE00B0392B /* QuizGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5A97C22A7862CE00B0392B /* QuizGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameApp.swift; sourceTree = "<group>"; };
 		7C5A97C42A7862CE00B0392B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		7C5A97B62A7862CE00B0392B = {
 			isa = PBXGroup;
 			children = (
+				7C3B90DF2A847D7A00BD4C8C /* README.md */,
 				7C5A97C12A7862CE00B0392B /* QuizGame */,
 				7C5A97C02A7862CE00B0392B /* Products */,
 			);
@@ -197,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3B90E02A847D7A00BD4C8C /* README.md in Resources */,
 				7C5A97CA2A7862CF00B0392B /* Preview Assets.xcassets in Resources */,
 				7C5A97C72A7862CF00B0392B /* Assets.xcassets in Resources */,
 			);
